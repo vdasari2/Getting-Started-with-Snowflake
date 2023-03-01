@@ -59,14 +59,14 @@ $$;
 #Retrieve all data from the table
 SELECT * FORM nba_player_stats;
 
-
-1. We have created a stored procedure with name "StoredProc"
-2. This stored procedure returns a string VARCHAR
-3. We have given caller rights for this stored procedure
-4. In the above stored procedure, we have done the following:
-    1. Created Database STORED_PROCEDURE
-    2. Created Schema external_staging
-    3. Created Stage with AWS s3 
-    4. Created table nba_player_stats with columns matching the data in S3.
-    5. Copied data from stage into table 
-    6. Retrieve data from the table 
+Explanation:
+    1. We have created a stored procedure with name "StoredProc"
+    2. This stored procedure returns a string VARCHAR
+    3. We have given caller rights for this stored procedure
+    4. In the above stored procedure, we have done the following:
+        1. Created Database STORED_PROCEDURE
+        2. Created Schema external_staging
+        3. Created Stage with AWS s3 
+        4. Created table nba_player_stats with columns matching the data in S3.
+        5. Copied data from stage into table 
+        6. Retrieve data from the table 
